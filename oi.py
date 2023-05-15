@@ -18,11 +18,6 @@ flag = False
 ## a b c d [ab](0) = {ab} | [bc] (1) = {acb} | [cd]()
 
 
-'''for nome in range(total):
-    if nome == total-1:
-        print('sexu')
-    print(f'opcao{nome}: {lista[nome]}')'''
-
 def organiza():
     flag = False
     for nome in range(total):
